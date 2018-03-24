@@ -1,0 +1,13 @@
+{
+    "name": "nix2k/php20-hw16",
+    "type": "project",
+    "require": {
+        "yandex/geo": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Nix2k",
+            "email": "mihail.bokov@gmail.com"
+        }
+    ]
+}
