@@ -7,7 +7,7 @@ include __DIR__.'/templates/form_search.php';
 
 if (isset($_GET['act'])) {
 	if ($_GET['act']=='Поиск') {
-		if (isset($_GET['address'])) {
+		if ((isset($_GET['address'])) && ($_GET['address'] != '')) {
 			$address = clearInput($_GET['address']);
 			$geo = new \Yandex\Geo\Api();
 			$geo->setQuery($address);
